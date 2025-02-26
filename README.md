@@ -38,6 +38,11 @@ You'll also need:
    - [ChairsSDHom](https://lmb.informatik.uni-freiburg.de/resources/datasets/FlyingChairs.en.html)
    - [FlyingChairsOcc](https://lmb.informatik.uni-freiburg.de/resources/datasets/FlyingChairs.en.html)
 
+3. Create a symbolic link to put all optical flow datasets into a single folder named `./datasets`:
+   ```bash
+   ln -s /path/to/your/datasets ./datasets
+   ```
+
 ## Usage
 
 1. **Preview Samples**
